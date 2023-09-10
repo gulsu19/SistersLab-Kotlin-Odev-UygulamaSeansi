@@ -1,0 +1,7 @@
+package com.example.kotlinuygulama3hafta1.Soru16
+
+class Mudur(val name: String, val salary: Double): Employee {
+    override fun maasHesapla(): Double {
+        return salary * 1.5
+    }
+}
